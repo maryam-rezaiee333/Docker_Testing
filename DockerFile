@@ -1,0 +1,6 @@
+# Docker started 
+FROM node:alpine 
+COPY . /Index
+WORKDIR /Index
+CMD node inde.js
+ 
